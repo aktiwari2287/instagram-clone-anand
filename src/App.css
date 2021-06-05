@@ -16,7 +16,14 @@
   top: 0;
   z-index: 1;
 }
+
 .app_headerImage {
+  background-color: #fff;
+  padding: 20px;
   object-fit: contain;
-  flex: 0;
+}
+
+.app_signup {
+  display: flex;
+  flex-direction: column;
 }
