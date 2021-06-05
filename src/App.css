@@ -19,11 +19,20 @@
 
 .app_headerImage {
   background-color: #fff;
-  padding: 20px;
   object-fit: contain;
 }
 
 .app_signup {
   display: flex;
   flex-direction: column;
+}
+
+.app__logoutContainer {
+  margin-right: 20px;
+}
+.app__loginContainer {
+  margin-right: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10px;
 }
